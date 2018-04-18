@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<pubdate>20110907</pubdate>
+<title>Real Property Tax Assessment Sub-Neighborhoods</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset contains polygons that represent the boundaries of assessment subneighborhoods as defined by the DC Office of Tax and Revenue (OTR) Real Property Tax Administration (RPTA). For analysis purposes, RPTA delineates assessment neighborhoods to group properties that are affected by similar economic, political, governmental, and environmental factors. Assessment subneighborhoods are defined by the environment of a subject property that has a direct and immediate effect on its value. The assessment subneighborhood is a geographic area (in which there are typically fewer than several thousand properties) defined for some useful purpose, such as to ensure for later multiple regression modeling that the properties are homogeneous and share important locational characteristics. Assessment neighborhoods boundaries typically follow street centerlines, hydrological boundaries, and boundaries of major properties such as parks and monuments.These do not reflect precise neighborhood locations and do not necessarily include all commonly-used neighborhood designations.  There is no formal set of standards that describes which neighborhoods are included in this dataset.  Note that the District of Columbia does not have official neighborhood boundaries.</abstract>
+<purpose>This dataset is used by the DC Real Property Tax Administration (RPTA) to facilitate analysis and statistical modeling on properties that are homogeneous and share important locational characteristics.</purpose>
+<supplinf>Assessment subneighborhoods are not analogous to Sub Neighborhood Cluster boundaries that are used for planning purposes and political analysis. They should not be confused with the cluster layer or considered to be interchangeable in any way.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20110907</caldate>
+</sngdate>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<spdom>
+<bounding>
+<westbc>-77.114378</westbc>
+<eastbc>-76.909031</eastbc>
+<northbc>38.984773</northbc>
+<southbc>38.819063</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>Assessment neighborhoods</themekey>
+<themekey>RPTA neighborhoods</themekey>
+<themekey>Assessment sub neighborhoods</themekey>
+</theme>
+<theme>
+<themekt>ISO 19115 Topic Categories</themekt>
+<themekey>planningCadastre</themekey>
+</theme>
+<place>
+<placekt>None</placekt>
+<placekey>District of Columbia</placekey>
+<placekey>Washington</placekey>
+<placekey>D.C.</placekey>
+<placekey>DCGIS</placekey>
+<placekey>DC GIS</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Data Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>200 I Street SE, 5th Floor</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20003</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<logic>Adjusted sub neighborhood polygons by snapping to street centerlines and current sub neighborhood polygons. Polygons that were adjusted on 10/14/2005 were: 1. Sub Nbhds in Nbhd 40 - created new sub neighborhood and adjusted other sub neighborhoods within nbhd 40 2. Adjused western portion of sub nbhd 39 L. 3. Added Sub Nbhds 49a, 49b, and 49c. 4. Added Sub Nbhds, 32a, and 32b. 4.</logic>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>GT-polygon composed of chains</sdtstype>
+<ptvctcnt>121</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>DCGIS.AsSubNbhdPly</enttypl>
+</enttyp>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+</attr>
+<attr>
+<attrlabl>ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>SUBNBHD</attrlabl>
+</attr>
+<attr>
+<attrlabl>NHBD</attrlabl>
+</attr>
+<attr>
+<attrlabl>DISTANCE</attrlabl>
+</attr>
+<attr>
+<attrlabl>NBHD_NUM</attrlabl>
+</attr>
+<attr>
+<attrlabl>NHBD_NO</attrlabl>
+</attr>
+<attr>
+<attrlabl>DESCRIPTION</attrlabl>
+</attr>
+<attr>
+<attrlabl>NSBHDLINK</attrlabl>
+</attr>
+<attr>
+<attrlabl>SUBNBHD_NU</attrlabl>
+</attr>
+<attr>
+<attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Data Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>200 I Street SE, 5th Floor</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20003</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+</cntinfo>
+</distrib>
+<distliab>See access and use constraints information.</distliab>
+<custom>DC datasets can be downloaded from "http://opendata.dc.gov".</custom>
+</distinfo>
+<metainfo>
+<metd>20171103</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+<cntper>GIS Data Coordinator</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>200 I Street SE, 5th Floor</address>
+<city>Washington</city>
+<state>DC</state>
+<postal>20003</postal>
+<country>US</country>
+</cntaddr>
+<cntfax>(202) 727-5660</cntfax>
+<cntemail>dcgis@dc.gov</cntemail>
+<hours>8:30 am - 5 pm</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
